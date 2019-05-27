@@ -104,7 +104,7 @@ int main(int argc, char** argv, char* envp[]){
 	int index=0;
 	char base;
 	char* letCount= malloc(numInt*2);
-
+    //use assert
 	if(strcmp(iFile,"none")==0){
 		printf("Opened stdin\n");
 	}
